@@ -89,6 +89,6 @@ public class App {
 
     // 10. Convert Celsius to Fahrenheit
     public double celsiusToFahrenheit(double celsius) {
-        return (celsius * 9.0 / 5.0) + 32.0;
-    }
+        return (celsius * 9.0 / 5.0) + 32.0;
+    }
 }
