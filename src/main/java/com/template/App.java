@@ -84,14 +84,14 @@ public class App {
     // 8. Find the Smallest Element in an Array
     public int findMin(int[] array) {
         // TODO: Implement this method
-    int min = array[0];
-    for (int i = 1; i < array.length; i++) {
-        if (array[i] < min) {
-            min = array[i];
+        int min = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] < min) {
+                min = array[i];
+            }
         }
+        return min;
     }
-    return min;
-}
 
     // 9. Sum of Elements in an Array
     public int arraySum(int[] array) {
